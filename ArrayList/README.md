@@ -2,50 +2,52 @@
 Ưu điểm:
 ---
 
-Chạy rất tốt đối với các chức năng không làm thay đổi kích thước của mảng như get, replace, size,... (O(1) ~ O(nlogn))
+Chạy rất tốt đối với các chức năng chỉ lấy giá trị hoặc thay đổi giá trị trong mảng như get, replace,...
+
+Đơn giản, dễ làm chỉ cần array là được (các bạn có thể tự làm)
 
 Nhược điểm: 
 ---
 
-Chạy không tốt đối với các chức năng làm thay đổi kích thước của mảng như add, insert, remove... (O(logn) ~ O(n))
+Vì sử dụng array nên sẽ chạy không tốt đối với các chức năng làm thay đổi kích thước của mảng như add, insert, remove...
 
 Tóm tắt các chức năng của MyArray
 ---
 
-MyArray(): (Constructor) Tạo một mảng với kích thước bằng 0
+MyArray(): (Constructor) Tạo một mảng với kích thước bằng 0 (O(1))
 
-MyArray(int value): (Constructor) Tạo một mảng với kích thước bằng value
+MyArray(int value): (Constructor) Tạo một mảng với kích thước bằng value (O(1))
 
-MyArray(int[] arr): (Constructor) Tạo một mảng chứa tất cả các phần tử trong arr
+MyArray(int[] arr): (Constructor) Tạo một mảng chứa tất cả các phần tử trong arr (O(n))
 
-add(int value): Thêm một giá trị value vào cuối mảng
+add(int value): Thêm một giá trị value vào cuối mảng (O(n))
 
-addLast(int value): Thêm một giá trị value vào cuối mảng
+addLast(int value): Thêm một giá trị value vào cuối mảng (O(n))
 
-addFirst(int value): Thêm một giá trị value vào đầu mảng
+addFirst(int value): Thêm một giá trị value vào đầu mảng (O(n))
 
-insert(int value, int index): Chèn một value tại index
+insert(int value, int index): Chèn một value tại index (O(logn)~O(n))
+ 
+int get(int index): Lấy giá trị tại index (O(1))
 
-int get(int index): Lấy giá trị tại index
+replace(int value, int index): Thay đổi giá trị tại index bằng value (O(1))
 
-replace(int value, int index): Thay đổi giá trị tại index bằng value
+removeAt(int index): Xóa một giá trị tại index (O(logn)~O(n))
 
-removeAt(int index): Xóa một giá trị tại index
+remove(int value): Xóa một value trong mảng (O(n)~O(nlogn))
 
-remove(int value): Xóa một value trong mảng
+int size(): Trả về kích thước của mảng = index cuối + 1 (O(1))
 
-int size(): Trả về kích thước của mảng = index cuối + 1
+sort(): Sắp xếp mảng theo giá trị tăng dần  (O(nlogn))
 
-sort(): Sắp xếp mảng theo giá trị tăng dần
+sort(boolean isSortAscending): Sắp xếp mảng theo giá trị tăng dần (isSortAscending=true) hoặc giảm dần (isSortAscending=false) (O(nlogn))
 
-sort(boolean isSortAscending): Sắp xếp mảng theo giá trị tăng dần (isSortAscending=true) hoặc giảm dần (isSortAscending=false)
+int indexOf(int value): Trả về index đầu tiên chứa value. -1 nếu không có value trong mảng (O(logn)~O(n))
 
-int indexOf(int value): Trả về index đầu tiên chứa value. -1 nếu không có value trong mảng
+int lastIndexOf(int value): Trả về index cuối cùng chứa value. -1 nếu không có value trong mảng (O(logn)~O(n))
 
-int lastIndexOf(int value): Trả về index cuối cùng chứa value. -1 nếu không có value trong mảng
+boolean contains(int value): Trả về true nếu có value trong mảng và ngược lại (O(logn)~O(n))
 
-boolean contains(int value): Trả về true nếu có value trong mảng và ngược lại
-
-clear(): Xóa tất cả phần tử trong mảng
+clear(): Xóa tất cả phần tử trong mảng (O(1))
 
 String toString(): Trả về mảng
