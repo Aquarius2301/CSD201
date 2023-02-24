@@ -1,8 +1,16 @@
-Chạy tốt nếu sử dụng mảng trong việc lấy dữ liệu hoặc thay đổi dữ liệu như get, replace,... (O(1))
 
-Chạy không tốt với những chức năng làm thay đổi kích thước của mảng như add, insert, remove,... (O(n))
+Ưu điểm:
+---
+
+Chạy rất tốt đối với các chức năng không làm thay đổi kích thước của mảng như get, replace, size,... (O(1) ~ O(nlogn))
+
+Nhược điểm: 
+---
+
+Chạy không tốt đối với các chức năng làm thay đổi kích thước của mảng như add, insert, remove... (O(logn) ~ O(n))
 
 Tóm tắt các chức năng của MyArray
+---
 
 MyArray(): (Constructor) Tạo một mảng với kích thước bằng 0
 
