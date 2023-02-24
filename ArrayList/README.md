@@ -28,14 +28,12 @@ sort(): Sắp xếp mảng theo giá trị tăng dần
 
 sort(boolean isSortAscending): Sắp xếp mảng theo giá trị tăng dần (isSortAscending=true) hoặc giảm dần (isSortAscending=false)
 
-int indexOf(int value): Trả về index đầu tiên chứa value
+int indexOf(int value): Trả về index đầu tiên chứa value. -1 nếu không có value trong mảng
 
-int lastIndexOf(int value): Trả về index cuối cùng chứa value
+int lastIndexOf(int value): Trả về index cuối cùng chứa value. -1 nếu không có value trong mảng
 
 boolean contains(int value): Trả về true nếu có value trong mảng và ngược lại
 
 clear(): Xóa tất cả phần tử trong mảng
-
-
 
 String toString(): Trả về mảng
