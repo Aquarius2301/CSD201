@@ -14,7 +14,7 @@ addFirst(int value): Thêm một giá trị value vào đầu mảng
 
 insert(int value, int index): Chèn một value tại index
 
-get(int index): Lấy giá trị tại index
+int get(int index): Lấy giá trị tại index
 
 replace(int value, int index): Thay đổi giá trị tại index bằng value
 
