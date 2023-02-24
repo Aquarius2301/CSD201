@@ -1,10 +1,10 @@
-Các chức năng của MyArray
+Tóm tắt các chức năng của MyArray
 
-MyArray(): Tạo một mảng với kích thước bằng 0
+MyArray(): (Constructor) Tạo một mảng với kích thước bằng 0
 
-MyArray(int value): Tạo một mảng với kích thước bằng value
+MyArray(int value): (Constructor) Tạo một mảng với kích thước bằng value
 
-MyArray(int[] arr): Tạo một mảng chứa tất cả các phần tử trong arr
+MyArray(int[] arr): (Constructor) Tạo một mảng chứa tất cả các phần tử trong arr
 
 add(int value): Thêm một giá trị value vào cuối mảng
 
@@ -13,6 +13,10 @@ addLast(int value): Thêm một giá trị value vào cuối mảng
 addFirst(int value): Thêm một giá trị value vào đầu mảng
 
 insert(int value, int index): Chèn một value tại index
+
+get(int index): Lấy giá trị tại index
+
+replace(int value, int index): Thay đổi giá trị tại index bằng value
 
 removeAt(int index): Xóa một giá trị tại index
 
@@ -32,8 +36,6 @@ boolean contains(int value): Trả về true nếu có value trong mảng và ng
 
 clear(): Xóa tất cả phần tử trong mảng
 
-get(int index): Lấy giá trị tại index
 
-replace(int value, int index): Thay đổi giá trị tại index bằng value
 
 String toString(): Trả về mảng
