@@ -1,3 +1,7 @@
+Chạy tốt nếu sử dụng mảng trong việc lấy dữ liệu hoặc thay đổi dữ liệu như get, replace,... (O(1))
+
+Chạy không tốt với những chức năng làm thay đổi kích thước của mảng như add, insert, remove,... (O(n))
+
 Tóm tắt các chức năng của MyArray
 
 MyArray(): (Constructor) Tạo một mảng với kích thước bằng 0
