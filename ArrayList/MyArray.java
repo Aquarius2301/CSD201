@@ -27,7 +27,7 @@ public class MyArray {
     /**
      * Create an array and put all elements from {@code a} into this array
      * 
-     * @param a the array 
+     * @param a the array
      */
     public MyArray(int[] a) {
         this.a = a;
@@ -84,6 +84,17 @@ public class MyArray {
         }
         b[0] = value;
         a = b;
+    }
+
+     /**
+     * Check if the array is empty
+     * 
+     * @return {@code true} if the array is empty
+     *         <p>
+     *         {@code false} if the array is not empty
+     */
+    public boolean isEmpty() {
+        return a.length = 0;
     }
 
     /**
