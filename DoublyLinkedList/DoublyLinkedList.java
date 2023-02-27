@@ -2,10 +2,10 @@
  * @author Khang Ta
  */
 public class DoublyLinkedList {
-    private int size = 0;
+    private int size = 0; //size of the list
     private int[] a;
-    Node head;
-    Node tail;
+    Node head; //the first node
+    Node tail; //the last node
 
     /**
      * Create a list with size = 0
