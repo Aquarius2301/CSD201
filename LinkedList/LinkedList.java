@@ -82,7 +82,7 @@ public class MyList {
      *         <p>
      *         {@code false} if the list is not empty
      */
-    private boolean isEmpty() {
+    public boolean isEmpty() {
         return head == null;
     }
 
