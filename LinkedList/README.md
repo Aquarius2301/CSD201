@@ -14,6 +14,7 @@ Phải dùng có ít nhất hai class
 
 Phải có kiến thức cơ bản về node mới làm được
 
+Tóm tắt các chức năng của LinkedList
 ---
 
 MyArray(): (Constructor) Tạo một list có kích thước bằng 0 
