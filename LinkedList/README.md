@@ -8,7 +8,9 @@ Nhược điểm:
 ---
 
 Vì đây không phải array nên việc lấy dữ liệu, thay đổi hay những chức năng yêu cầu phải dựa
-vào index trở nên khó khăn (vì phải chạy từ đầu list tới cuối list) 
+vào index trở nên khó khăn (vì phải chạy từ đầu list tới cuối list).
+
+Phải dùng có ít nhất hai class
 
 Phải có kiến thức cơ bản về node mới làm được
 
