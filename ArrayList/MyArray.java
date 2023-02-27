@@ -243,7 +243,9 @@ public class MyArray {
 
     /**
      * Get the value at index
-     * 
+     * <p>
+     * Throw exception if the index is out of range [0, size - 1]
+     *
      * @param index the index want to get
      * @return the value at index
      */
