@@ -3,7 +3,7 @@ Stack (hàng đợi) giống như cơ chế của LIFO, tức là cái nào vào
 Các bạn có thể tự làm nó vì nó rất đơn giản (làm bằng array hay node đều được) vì nó chỉ có hai chức năng chính là 
 thêm giá trị vào cuối queue và lấy giá trị tại cuối stack
 
-Các chức năng queue
+Các chức năng stack
 ---
 
 Stack(): (Constructor) Tạo một queue với kích thước bằng 0
