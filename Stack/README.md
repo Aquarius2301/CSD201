@@ -14,9 +14,9 @@ Stack(int[] arr): (Constructor) Tạo một queue với tất cả phần tử t
 
 push(int value): Thêm một value vào cuối stack
 
-peek(): Lấy giá trị đầu queue
+peek(): Lấy giá trị cuối queue
 
-poll(): Lấy giá trị đầu queue và xóa giá trị đó
+poll(): Lấy giá trị cuối queue và xóa giá trị đó
 
 boolean isEmpty(): Kiểm tra stack có rỗng hay không
 
