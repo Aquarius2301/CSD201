@@ -6,17 +6,17 @@ thêm giá trị vào cuối queue và lấy giá trị tại cuối stack
 Các chức năng stack
 ---
 
-Stack(): (Constructor) Tạo một queue với kích thước bằng 0
+Stack(): (Constructor) Tạo một stack với kích thước bằng 0
 
-Stack(int size): (Constructor) Tạo một queue với tất cả các giá trị bằng 0
+Stack(int size): (Constructor) Tạo một stack với tất cả các giá trị bằng 0
 
-Stack(int[] arr): (Constructor) Tạo một queue với tất cả phần tử trong mảng arr
+Stack(int[] arr): (Constructor) Tạo một stack với tất cả phần tử trong mảng arr
 
 push(int value): Thêm một value vào cuối stack
 
-peek(): Lấy giá trị cuối queue
+peek(): Lấy giá trị cuối stack
 
-poll(): Lấy giá trị cuối queue và xóa giá trị đó
+poll(): Lấy giá trị cuối stack và xóa giá trị đó
 
 boolean isEmpty(): Kiểm tra stack có rỗng hay không
 
